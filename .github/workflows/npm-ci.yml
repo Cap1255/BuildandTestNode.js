@@ -3,6 +3,7 @@ name: NodeJS CI workflow
 on:
    workflow_dispatch:
    push:
+   
 jobs:
   node_build:
     runs-on: ubuntu-latest
